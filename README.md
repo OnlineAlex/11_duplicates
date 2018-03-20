@@ -4,8 +4,14 @@
 # Как работает 
 ```bash
 $ python duplicates.py /home/Myhome/github/
-Эти файлы дублируются:
-README.md, config, description, HEAD, index, packed-refs, applypatch-msg.sample, commit-msg.sample, fsmonitor-watchman.sample
+Количество дублируемых файлов — 26
+Файл "README.md" дублируется в каталогах: 
+A:\test_git
+A:\test_git\4_project                        
+
+Файл "config" дублируется в каталогах: 
+A:\test_git\3_project\.git
+A:\test_git\4_project\.git       
 ```
 # Требования
 Совестимые OC:
@@ -16,7 +22,7 @@ README.md, config, description, HEAD, index, packed-refs, applypatch-msg.sample,
 # Как запустить
 Скрипт запускается стандатной командой `python` (на некоторых компьютерах `python3`)
 
-Затем напишите название файла `password_strength.py` и передайте путь к папке с которой начать анализ — С:\StartFolder\
+Затем напишите название файла `duplicates.py` и передайте путь к папке с которой начать анализ — С:\StartFolder\
 
 > Запуск для всех ОС одинаковый
 ```bash
